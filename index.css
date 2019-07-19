@@ -29,11 +29,18 @@ form{
 }
 .card-footer{
   margin: 10px 30px 10px 30px;
-  border-radius: 30px;
+  border-radius: 40px;
   background-color:#fffc;
   opacity:0.5 ;
   height:30%;
   margin:20px;
-  padding:20px;
+  padding:50px;
   font-weight:bolder;
+} 
+.submit{
+  padding:20px;
+  border-radius:10px;
+  text-decoration:underline;
+  color:blue;
+  font-size:20px;
 }
