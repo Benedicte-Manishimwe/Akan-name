@@ -3,8 +3,10 @@
  <head>
     <meta charset="uft-8">
     <meta content="width=width-decive,initial-scale=1.0">
-    <link href="index.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet">
+    <script src="scripts.js" rel="text/javascript"></script>
+  
     <title>AKAN NAME-PROJECT</title>
  </head>
   <div class="container">
@@ -21,27 +23,27 @@
       </div>
       <div class="card-body">
         <p>please, fill out the above form and submit.</p>
-        <form>
+        <div class="form">
           Day:&nbsp&nbsp&nbsp&nbsp
-          <input type="text" name=" day"><br>
+          <input type="text" id=" day"><br>
           Month:
-          <input type="text" name="month"><br>
+          <input type="text" id="month"><br>
           Year:&nbsp&nbsp&nbsp
-          <input type="text" name="birthd year"><br>
+          <input type="text" id=" year"><br>
           Gender:
-          <input type="radio" name="gender" value="male"> Male.
-          <input type="radio" name="gender" value="female"> Female.<br><br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-          <input class="submit" type="submit" value="submit">
-
-        </form> 
+          <select class="select">
+           <option value="maleNames"> Male</option>
+           <option  value="femaleNames"> Female</option><br><br>
+         </select>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <button id="show"  value="submit"  onclick="weekDay()">SUBMIT</button>
+        </div> 
 
       </div>
       <div class="card-footer">
-       <strong>You are born :</strong>&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
-        <input type="text" name="day of birthd"><br><br>
-        <strong>Your Akan name is  :</strong> 
-        <input type="text" name="akan-name">
+       You are born :&nbsp&nbsp<p id="results"></p><br><br>
+       Your Akan name is:&nbsp&nbsp<p id="name"></p> 
+        
       </div>
 
     </div>
