@@ -1,33 +1,37 @@
-function myFunction(){
-  var DD=parseFloat(document.getElementById("day").value);
-  var MM=parseFloat(document.getElementById("month").value);
-  var YY=parseFloat(document.getElementById("year").value);
-  var CC=((YY-1) / 100) + 1;
-  var dayWeek= (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
-  console.log(dayWeek);
-  alert("you are born on "(dayWeek));
-  document.getElementById("results").innerHTML=Math.round(dayWeek);
+function myFunction() {
+  var DD = parseFloat(document.getElementById("day").value);
+  var MM = parseFloat(document.getElementById("month").value);
+  var YY = parseFloat(document.getElementById("year").value);
+  var CC = ((YY - 1) / 100) + 1;
+  var dayWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
 
-  var femaleNames=["kwasi", "kwadwo","kwabena" ,"kwaku", "yaw" ,"kofi", "kwame"];
-  var maleNames=["Akosua", "Adwoa", "Abenaa" ,"Akua" ,"Yaa", "Afua", "Ama"];
-  var gender=document.getElementsById("select").value;
+  /* convert the number of day to corresponding dayname*/
+  var ee = parseInt(dayWeek);
+  var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var dayName = days[ee];
+  
+  /* specify the names*/
+  var femaleNames = ["kwasi", "kwadwo", "kwabena", "kwaku", "yaw", "kofi", "kwame"];
+  var maleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var gender = document.getElementById("select").value;
 
+  /* /*  dayName and Akan-mane will be displayed at the same time*/
   if (gender === "male") {
-    console.log(maleNames[Math.round(dayWeek)]);
-
-    document.getElementById("name").innerHTML =maleNames[Math.round(dayWeek)];
-  } 
-  else if (gender === "female"){
- 
-     console.log(femaleNames[Math.round(dayWeek)]);
-    document.getElementById("name").innerHTML = femaleNames[Math.round(dayWeek)];
+    console.log( "you are born on "+ dayName + "and your Akan name is "+  maleNames[ee]);
+    document.getElementById("name").innerHTML = maleNames[ee];
+  }
+  else if (gender === "female") {
+  
+    console.log( "you are born on "+ dayName + "and your Akan name is "+  maleNames[ee])
+    document.getElementById("name").innerHTML = femaleNames[ee];
   }
   else {
     console.log("invalid outuput");
     alert("enter again your birthday");
+    document.getElementById("name").innerHTML = " invalid output";
   }
-
 }
+
 
 
 
