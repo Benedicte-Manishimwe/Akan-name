@@ -15,15 +15,15 @@ function myFunction() {
   var maleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var gender = document.getElementById("select").value;
 
-  /* /*  dayName and Akan-mane will be displayed at the same time*/
-  if (gender === "male") {
-    console.log( "you are born on "+ dayName + "and your Akan name is "+  maleNames[ee]);
-    document.getElementById("name").innerHTML = maleNames[ee];
+  /*  dayName and Akan-mane will be displayed at the same time */
+  if ((gender === "male")&&(DD>0&&DD<=31)&&(MM>1&&MM<=12)&&(YY>1800&&YY<=2019)) {
+    console.log( "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee]);
+    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee];
   }
-  else if (gender === "female") {
+  else if ((gender === "female")&&(DD>=0&&DD<31)&&(MM>1&&MM<=12)&&(YY>1800&&YY<=2019)) {
   
     console.log( "you are born on "+ dayName + "and your Akan name is "+  maleNames[ee])
-    document.getElementById("name").innerHTML = femaleNames[ee];
+    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee];
   }
   else {
     console.log("invalid outuput");
