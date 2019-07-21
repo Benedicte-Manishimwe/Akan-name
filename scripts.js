@@ -3,10 +3,10 @@ function myFunction() {
   var MM = parseFloat(document.getElementById("month").value);
   var YY = parseFloat(document.getElementById("year").value);
   var CC = ((YY - 1) / 100) + 1;
-  var dayWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+  var number= (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
 
   /* convert the number of day to corresponding dayname*/
-  var ee = parseInt(dayWeek);
+  var ee = parseInt(number);
   var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var dayName = days[ee];
   
@@ -16,14 +16,14 @@ function myFunction() {
   var gender = document.getElementById("select").value;
 
   /*  dayName and Akan-mane will be displayed at the same time */
-  if ((gender === "male")&&(DD>0&&DD<=31)&&(MM>1&&MM<=12)&&(YY>1800&&YY<=2019)) {
-    console.log( "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee]);
-    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee];
+  if ((gender === "male")&&(DD>0||DD<=31)&&(MM>1||MM<=12)&&(YY>1800||YY<=2019)) {
+    console.log( "you are born on "+ dayName + " and your akan name is "+  maleNames[ee]);
+    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your akan name is "+  maleNames[ee];
   }
   else if ((gender === "female")&&(DD>=0&&DD<31)&&(MM>1&&MM<=12)&&(YY>1800&&YY<=2019)) {
   
-    console.log( "you are born on "+ dayName + "and your Akan name is "+  maleNames[ee])
-    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your Akan name is "+  maleNames[ee];
+    console.log( "you are born on "+ dayName + "and your akan name is "+  femaleNames[ee])
+    document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your akan name is "+  femaleNames[ee];
   }
   else {
     console.log("invalid outuput");
