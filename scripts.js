@@ -11,12 +11,12 @@ function myFunction() {
   var dayName = days[ee];
   
   /* specify the names*/
-  var femaleNames = ["kwasi", "kwadwo", "kwabena", "kwaku", "yaw", "kofi", "kwame"];
+  var femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var maleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var gender = document.getElementById("select").value;
 
   /*  dayName and Akan-mane will be displayed at the same time */
-  if ((gender === "male")&&(DD>0||DD<=31)&&(MM>1||MM<=12)&&(YY>1800||YY<=2019)) {
+  if ((gender === "male")&&(DD>0&&DD<=31)&&(MM>1&&MM<=12)&&(YY>180&&YY<=2019)) {
     console.log( "you are born on "+ dayName + " and your akan name is "+  maleNames[ee]);
     document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your akan name is "+  maleNames[ee];
   }
@@ -26,9 +26,9 @@ function myFunction() {
     document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your akan name is "+  femaleNames[ee];
   }
   else {
-    console.log("invalid outuput");
+    console.log("please,enter a valid date or month!!");
     alert("enter again your birthday");
-    document.getElementById("name").innerHTML = " invalid output";
+    document.getElementById("name").innerHTML = "please,enter a valid date or month!!";
   }
 }
 
