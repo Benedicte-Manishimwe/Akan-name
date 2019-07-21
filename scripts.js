@@ -26,9 +26,9 @@ function myFunction() {
     document.getElementById("name").innerHTML = "you are born on "+ dayName + " and your akan name is "+  femaleNames[ee];
   }
   else {
-    console.log("please,enter a valid date or month!!");
+    console.log("please,enter a valid day or month!!");
     alert("enter again your birthday");
-    document.getElementById("name").innerHTML = "please,enter a valid date or month!!";
+    document.getElementById("name").innerHTML = "please,enter a valid day or month!!";
   }
 }
 
