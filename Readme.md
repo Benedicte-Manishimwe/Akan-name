@@ -3,7 +3,10 @@
 #### By **MANISHIMWE BENEDICTE**
 ## Description
 ### The akan names is build in the way that the user propmt the valid birth date means day,month and year so the output will be the day of week (day name) with its corresponding akan name.  
-The Akan names comes from the akan people of Ghana frequently name their children afterm the day of the week they are born and the order in which they are born.These "akan name" have further meanings concerning the soul and character of the person .
+The Akan names comes from the akan people of Ghana frequently name their children afterm the day of the week they are born and the order in which they are born.These "akan name" have further meanings concerning the soul and character of the person . 
+## the link to the live site: 
+https://benedicte-manishimwe.github.io/Akan-name/
+
 ## Setup/Installation Requirements
 * Have a device could support the 3G internet and has 64 bit.
 * Git command installed.
