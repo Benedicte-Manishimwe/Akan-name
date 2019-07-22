@@ -23,13 +23,13 @@ The Akan names comes from the akan people of Ghana frequently name their childre
 * * Then click on "submit" button.
 * * According to**
 * The input you mhave inserted
-* * the result will be **
+* * The result will be **
 * A day of week(day name) on which you are born.
 * and akan name correspondin to your gender.
 ## Technologies Used
-* the akan mane web application is build using HTML,Stylesheet(CSS)and Javascript.
+* The akan mane web application is build using HTML,Stylesheet(CSS)and Javascript.
 ## Support and contact details
-for more infos ,don't hesitate to contact Us on (+250)788291717 or e-mail:benoite251@gmail.com
+For more infos ,don't hesitate to contact Us on (+250)788291717 or e-mail:benoite251@gmail.com
 ### License
 * MIT License
 
