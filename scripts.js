@@ -15,6 +15,15 @@ function myFunction() {
   var maleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var gender = document.getElementById("select").value;
 
+  function changeColor(){
+    if (gender==="male"){
+      document.getElementsByClassName("form").background-color.innerHTML= "blue";
+    }
+    else (gender==="female"){
+      document.getElementsByClassName("form").background-color.innerHTML= "pink";
+    }
+  }
+
   /*  dayName and Akan-mane will be displayed at the same time */
   if ((gender === "male")&&(DD>0&&DD<=31)&&(MM>1&&MM<=12)&&(YY>180&&YY<=2019)) {
     console.log( "you are born on "+ dayName + " and your akan name is "+  maleNames[ee]);
