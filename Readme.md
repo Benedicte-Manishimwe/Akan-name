@@ -5,11 +5,11 @@
 ### The akan names is build in the way that the user propmt the valid birth date means day,month and year so the output will be the day of week (day name) with its corresponding akan name.  
 The Akan names comes from the akan people of Ghana frequently name their children afterm the day of the week they are born and the order in which they are born.These "akan name" have further meanings concerning the soul and character of the person .
 ## Setup/Installation Requirements
-* have a device could support the 3G internet and has 64 bit.
-* git command installed.
+* Have a device could support the 3G internet and has 64 bit.
+* Git command installed.
 * visual code studio installed .
-* clone the project in git command.
-* save the project cloned in your device.
+* Clone the project in git command.
+* Save the project cloned in your device.
 * run it by using google chrome browser.
 * enter your brithday date.
 * select the gender
