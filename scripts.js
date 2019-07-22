@@ -17,10 +17,10 @@ function myFunction() {
 
   function changeColor(){
     if (gender==="male"){
-      document.getElementsByClassName("form").background-color.innerHTML= "blue";
+      document.getElementById("name").style.color= "blue";
     }
     else (gender==="female"){
-      document.getElementsByClassName("form").background-color.innerHTML= "pink";
+      document.getElementById("name").style.color= "red";
     }
   }
 
