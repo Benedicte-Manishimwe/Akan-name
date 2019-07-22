@@ -24,7 +24,7 @@ The Akan names comes from the akan people of Ghana frequently name their childre
 * * According to**
 * the input you mhave inserted
 * * the result will be **
-* a day of week(day name) on which you are born.
+* A day of week(day name) on which you are born.
 * and akan name correspondin to your gender.
 ## Technologies Used
 * the akan mane web application is build using HTML,Stylesheet(CSS)and Javascript.
