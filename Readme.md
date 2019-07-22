@@ -10,9 +10,9 @@ The Akan names comes from the akan people of Ghana frequently name their childre
 * visual code studio installed .
 * Clone the project in git command.
 * Save the project cloned in your device.
-* run it by using google chrome browser.
-* enter your brithday date.
-* select the gender
+* Run it by using google chrome browser.
+* Enter your brithday date.
+* Select the gender
 * Click on submit button.
 ## BDD
 * * Input birth date**
