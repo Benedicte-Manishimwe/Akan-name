@@ -13,7 +13,7 @@ The Akan names comes from the akan people of Ghana frequently name their childre
 * run it by using google chrome browser.
 * enter your brithday date.
 * select the gender
-* click on submit button.
+* Click on submit button.
 ## BDD
 * * Input birth date**
 * birth date must be a number greater than 0 and less or equal to 31.
