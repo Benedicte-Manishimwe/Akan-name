@@ -16,13 +16,13 @@ The Akan names comes from the akan people of Ghana frequently name their childre
 * Click on submit button.
 ## BDD
 * * Input birth date**
-* birth date must be a number greater than 0 and less or equal to 31.
+* Birth date must be a number greater than 0 and less or equal to 31.
 * * Then input month of birthday**
-* month must be a number greater than 0 and less or equal to 12.
+* Month must be a number greater than 0 and less or equal to 12.
 * * choose your gender **
-* * then click on "submit" button.
+* * Then click on "submit" button.
 * * According to**
-* the input you mhave inserted
+* The input you mhave inserted
 * * the result will be **
 * A day of week(day name) on which you are born.
 * and akan name correspondin to your gender.
