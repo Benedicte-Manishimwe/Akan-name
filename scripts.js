@@ -17,18 +17,18 @@ function myFunction() {
   
   /*  dayName and Akan-mane will be displayed at the same time */
   if ((gender === "male")&&(DD>0&&DD<=31)&&(MM>1&&MM<=12)) {
-    console.log( "you are born on "+ days[ee-1] + " and your akan name is "+  maleNames[ee-1]);
-    document.getElementById("name").innerHTML = "you are born on "+ days[ee-1] + " and your akan name is "+  maleNames[ee-1];
+    console.log( "You are born on "+ days[ee-1] + " and your akan name is "+  maleNames[ee-1]);
+    document.getElementById("name").innerHTML = "You are born on "+ days[ee-1] + " and your akan name is "+  maleNames[ee-1];
   }
   else if  ((gender === "female")&&(DD>=0&&DD<31)&&(MM>1&&MM<=12)&&(YY>1800&&YY<=2019)) {
   
-    console.log( "you are born on "+ days[ee-1] + "and your akan name is "+  femaleNames[ee-1])
-    document.getElementById("name").innerHTML = "you are born on "+ daya[ee-1] + " and your akan name is "+  femaleNames[ee-1];
+    console.log( "You are born on "+ days[ee-1] + "and your akan name is "+  femaleNames[ee-1])
+    document.getElementById("name").innerHTML = "You are born on "+ daya[ee-1] + " and your akan name is "+  femaleNames[ee-1];
   }
   else {
-    console.log("please,enter a valid day or month!!");
-    alert("enter again your birthday");
-    document.getElementById("name").innerHTML = "please,enter a valid day or month!!";
+    console.log("Please,enter a valid day or month!!");
+    alert("Enter again your birthday");
+    document.getElementById("name").innerHTML = "Please,enter a valid day or month!!";
   }
 }
 
